@@ -22,36 +22,40 @@ body {
   color: black;
 }
 
-.about-txt {
+#page1 {
+  height: 1000px;
+}
+
+#page1 .about-txt {
   color: #ededed;
   padding-left: 50px;
   padding-right: 50px;
-  padding-top: 200px;
-  padding-bottom: 2400px;
+  padding-top: 300px;
+  padding-bottom: 300px;
   text-align: center;
 }
 
-.about-txt h2 {
-  padding-bottom: 100px;
-}
-
-.about-txt .paragraph {
+#page1 .about-txt .paragraph {
   width: 500px;
   margin: auto;
 }
 
-.about-bg { 
+#page1 .about-bg { 
   /* The image used */
   background-image: url("black-frost-ripples-1280.jpg");
 /*  height: 1500px;
   width: 1500px;*/
 }
 
-.cards {
+#page2 {
+  height: 1000px;
+}
+
+#page2 .cards {
   margin-top: 100px;
 }
 
-.projects-h2 {
+#page2 .projects-h2 {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 100px;

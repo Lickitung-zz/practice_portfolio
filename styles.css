@@ -1,9 +1,28 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  min-width: 1000px;
+  min-height: 1000px;
+}
+
 .h1 {
-  padding-left: 50px;
+  padding-left: 100px;
   padding-right: 50px;
   padding-top: 200px;
   padding-bottom: 400px;
+  width: 100%;
   text-align: center;
+}
+
+mark.blue {
+  color: #00d1c9;
+  text-shadow:
+    -.1px 0px 0 #009ece,
+    0px -.1px 0 #009ece,
+    -.1px 0px 0 #009ece,
+    0px .1px 0 #009ece;
+  background: none;
+  padding: 0;
 }
 
 body {
@@ -11,7 +30,7 @@ body {
 }
 
 .navbar-icon {
-  color: black;
+  color: #00d1c9;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -19,7 +38,7 @@ body {
 }
 
 .fa.fa-navicon {
-  color: black;
+  color: #00d1c9;
 }
 
 #page1 {
@@ -27,24 +46,61 @@ body {
 }
 
 #page1 .about-txt {
-  color: #ededed;
-  padding-left: 50px;
+  color: #000;
+  padding-left: 100px;
   padding-right: 50px;
-  padding-top: 300px;
-  padding-bottom: 300px;
+  padding-top: 150px;
+  padding-bottom: 100px;
   text-align: center;
 }
 
 #page1 .about-txt .paragraph {
-  width: 500px;
-  margin: auto;
+  width: 400px;
+  padding-top: 300px;
+  color: #2f2f2f;
+  width: 200px;
+}
+
+#page1 .about-txt #who-dis {
+  width: 320px;
+  padding-right: 80px;
+  padding-left: 45px;
+}
+
+#page1 .about-txt #paragraph {
+  width: 450px;
+  padding-right: 150px;
+}
+
+
+/*#page1 .about-txt #text {
+  padding-left: 40px;
+}*/
+
+#page1 .about-txt #profilepic {
+  padding-bottom: 10px; 
+  padding-left: 15px;
+}
+
+#page1 .about-txt #profilepic img {
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+#page1 #border-top {
+  border-top: 3px solid red;
+  border-top-color: #00d1c9;
 }
 
 #page1 .about-bg { 
-  /* The image used */
-  background-image: url("black-frost-ripples-1280.jpg");
-/*  height: 1500px;
-  width: 1500px;*/
+  height: 1000px;
+  background-image: url("lightgreybackground.jpg");
+}
+
+#page1 #top {
+  background: #a5ebff;
+  position: fixed;
 }
 
 #page2 {

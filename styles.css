@@ -47,12 +47,18 @@ body {
 
 #page1 .about-txt {
   color: #000;
+  height: 288px;
   padding-left: 100px;
   padding-right: 50px;
   padding-top: 150px;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
   text-align: center;
 }
+
+#page1 .about-txt .about-me-h2 {
+  height: 40px;
+}
+
 
 #page1 .about-txt .paragraph {
   width: 400px;
@@ -73,13 +79,31 @@ body {
 }
 
 
-/*#page1 .about-txt #text {
-  padding-left: 40px;
-}*/
+#page1 .about-txt #text {
+  width: 300px;
+}
+
+#page1 #front-end-head {
+  padding-left: 980px;
+}
+
+#page1 #front-end-text {
+  padding-left: 980px;
+}
+
+#page1 #back-end-head {
+  padding-left: 980px;
+  padding-top: 150px;
+}
+
+#page1 #back-end-text {
+  padding-left: 980px;
+}
 
 #page1 .about-txt #profilepic {
   padding-bottom: 10px; 
   padding-left: 15px;
+  width: 275px;
 }
 
 #page1 .about-txt #profilepic img {
